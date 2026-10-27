@@ -6,10 +6,10 @@ fares and the route are illustrative, **no payment is processed**, and **no phys
 ## Pages
 | Route | What it does |
 |---|---|
-| `#/conductor` | Conductor-first dashboard: 6 destinations, 1 to 5 passengers, live fare, Issue, pending / issued / failed / STATUS UNKNOWN states, same-ticket retry, hold / resume / discard, recent tickets, demo printer controls |
-| `#/passenger` | Passenger self-service: destination, count, fare, review, confirm (no payment), digital ticket with QR, "my tickets" list |
-| `#/verify` | Ticket verification by typed ID or camera QR scan; results: valid, invalid, already used, unknown |
-| `#/settings` | Editable fare table (names and fares, validated) |
+| `#conductor` | Conductor-first dashboard: 6 destinations, 1 to 5 passengers, live fare, Issue, pending / issued / failed / STATUS UNKNOWN states, same-ticket retry, hold / resume / discard, recent tickets, demo printer controls |
+| `#passenger` | Passenger self-service: destination, count, fare, review, confirm (no payment), digital ticket with QR, "my tickets" list |
+| `#verify` | Ticket verification by typed ID or camera QR scan; results: valid, invalid, already used, unknown |
+| `#settings` | Editable fare table (names and fares, validated) |
 
 ## Run locally
 Requires Node 18+.
